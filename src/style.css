@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+}
+
+span{
+    color:rgb(209, 86, 28) ;
+}
+a{
+    color: gray;
+}
+button{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: rgb(209, 86, 28);
+    border: rgb(209, 86, 28) solid;
+    color: antiquewhite;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    margin: 0 90px 0 90px;
+}
+.button-header{color: antiquewhite;}
+.shield{
+    margin: 15px 0 0 15px;
+    width: 75px;
+    height: 60px;
+}
+.header-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+    gap: 25px;
+    list-style: none;
+    
+}
+/* form block and img*/
+.formulary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 90px 0 90px;
+    
+}
+
+/**/
+/* principo con dropdown*/
+
+/* div del form*/
+.head-text{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    padding: 55px 0 15px 0;
+}
+.car-selector{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 98%;
+    height: 280px;
+    border: 0.1px  solid rgba(0, 0, 0, 0.247);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px #444;
+    align-items: flex-start;
+    margin: 25px;
+    border-top: 15px solid rgb(170, 9, 9); 
+}
+.bookcarbutton{
+    background: black;
+    border: black;
+    margin: 0 0 20px 0;
+    font-size: 10px;
+}
+/* imput para formulario*/
+.formulary{
+    display: flex;
+    justify-content: center;
+}
+.form-text{
+
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 55px 0 0 55px ;
+}
+.form-text p {color: #444444e3; padding-left: 15px;}
+.form{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.input{
+    width: 90%;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding: 3px;
+} 
+/*tarjetas de servicios*/
+.serviceblock{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    box-sizing: border-box;
+}
+.serviceblock p{
+    padding: 12px;
+}
+.sbttitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 280px;
+    border: 0.1px  solid rgba(0, 0, 0, 0.247);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px #444;
+    align-items: flex-start;
+    margin: 25px;
+    padding: 0 0 0 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+.services p{color: gray;}
+
+/* mission block*/
+.mission{
+    display: flex;
+    margin: 200px 45px 0 0;
+}
+.mission button{
+    width: 35%;
+    margin: 20px 0 0 0;
+}
+.mission-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    padding: 35px 0 25px 0;
+}
+.mission-text h2 {
+    font-size: 33px;
+}
+.mission-text p {
+    font-size: 15px;
+    padding: 35px 0 35px 0 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+.mission-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 40px;  
+}
+.mission-dash{
+    width: 35px;
+    height: 10px;
+    padding: 0 5px 0 0;
+}
+.mission-img img {width: 800px;}
+.mission-img{
+    width: 60%;
+}
+
+/*car experience block*/
+.experience{
+    margin: 0 90px 10px 90px;
+}
+.car-text-choice{
+    font-size: 55px;
+    padding: 0 0 40px 0;
+}
+.cars-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 300px 0 300px 0;
+}
+.car-image{width:100%;}
+.car-card-cont{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    box-sizing: border-box;
+}
+.car-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    height: 600px;
+    border: 0.1px  solid rgba(0, 0, 0, 0.247);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px #444;
+    align-items: flex-start;
+    margin:25px;
+}
+.rent-a-car{
+    padding: 20px 0 0 45px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+}
+.price h3 {
+    color: gray;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.car-card h2{
+    padding: 20px 0 0 40px ;
+}
+.cars-button{
+    margin-top: 55px;
+}
+
+/* promotion*/
+.videoprom{width: 50%;}
+.prom-img{
+    width: 35px;
+    height: 10px;
+    padding: 0 5px 0 0;
+}
+.prom-{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 8px;
+    padding: 35px 0 15px 0;
+}
+.promotion-descript{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 40px;
+}
+.promotion-descript h2 {font-size: 53px;}
+
+.p-promotion{
+    display: flex;
+    width: 100%;
+    padding: 40px 0 0 0;
+}
+.promotion-video{
+    display: flex;
+    margin: 0 90px 10px 90px;
+
+}
+/*contact card*/
+.contact{
+    display: flex;
+    justify-content: center;
+    padding: 200px 0;
+    margin: 0 90px 10px 90px;
+}
+.cont-card-img{
+    width: 95px;
+    height: 95px;
+    border-radius: 100%;
+    margin: 0 90px 10px 0;
+}
+.contact-card-text{
+    color:antiquewhite ;
+    padding: 0 40px 0 15px;
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+
+    
+}
+.contact-card{
+    border: 0.1px  solid rgba(0, 0, 0, 0.247);
+    border-radius: 15px;
+    background:linear-gradient(rgb(236, 39, 39), rgb(204, 33, 33),rgb(151, 25, 25) ) ;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 55px ;
+}
+.mcclaren{
+    width: 600px;
+}
+
+/*service block*/
+.servicesicon{
+   width: 64px;
+   height: 64px;
+   margin-left: 10px;
+}
+.specs img{
+    width: 100%;
+}
+
+/*testimonies*/
+.test-block{
+    margin: 90px 90px;
+}
+
+.testimonios{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    box-sizing: border-box;
+    margin: 100px 90px;
+}
+.test-card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border: 0.1px  solid rgba(0, 0, 0, 0.247);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px #444;
+    align-items: center;
+    margin:25px;
+    border-bottom: solid 20px rgb(170, 9, 9);
+    text-align: center;
+}
+.card-img{
+    width: 30%;
+    margin: 80px 0 0 0;
+    border-radius: 100px;
+}
+.card-title{
+    font-size: 14px;
+    margin: 30px 0 10px 0;
+    /* padding-top: 50px; */
+    justify-content: center;
+}
+.card-subt{ 
+    /* padding: 25px; */
+    font-size: 18px;
+}
+.card-text{
+    padding: 45px;
+}
+.test-name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0 0 10px;
+}
+.test-dash{
+    display: flex;
+    flex-direction: row;
+    height: 10px;
+    padding-bottom: 1px;
+}
+.test-title{
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 0;
+}
+.title-dash{
+    height: 8px;
+    margin: 0 20px 0 0;
+}
+.client-say{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+}
+.star-img{
+    /* padding-top: 18px; */
+    margin: 20px 0 20px 0;
+}
+
+/*footer icons and footer*/
+.footer{
+    border: solid #b4b4b4e3 0.1px;
+    width: 100%;
+    height: 400px;
+    
+    
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b4b4b4e3;
+}
+.foot-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 0 ;
+    margin: 0 90px 0 90px;
+}
+.footer-shield{
+    width: 103px;
+    height: 103px;
+}
+.f-icon{
+    width: 103px;
+    height: 73px;
+}
+.footer-center li{
+    list-style: none;
+    font-size: larger;
+    color: #444;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+.footer-center{
+    display: fl
+}
+.footer-list{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-phone{
+    width: 100%;
+    display: flex;
+    color: #444;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 50px;
+}
+.phone-icon{
+    width: 40px;
+    height: 60px;
+}
+
+.footer-left ul{
+    list-style: none;
+    width: 66%;
+    display: flex;
+}
+svg{
+    width: 30px;
+    height: 50px;
+}
